@@ -18,7 +18,6 @@
     "node": "14.x"
   },
   "dependencies": {
-    "brunch": "1.x",
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
     "@babel/node": "^7.15.4",
@@ -27,6 +26,7 @@
     "axios": "^0.21.1",
     "babel-preset-stage-0": "^6.24.1",
     "body-parser": "^1.19.0",
+    "brunch": "^4.0.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
