@@ -32,7 +32,7 @@ app.use(express.static("src/public"))
  
 app.listen(PORT, async () => {
         
-        destino = /* "./upload" // */ (await paraDestino.setPath()) || "./upload"
+        destino = /* "./upload" // */ /* (await paraDestino.setPath()) || */ "./upload"
         
         console.clear()
         rotas(app, destino)
