@@ -34,6 +34,7 @@ app.listen(PORT, async () => {
         
         destino = /* "./upload" // */ /* (await paraDestino.setPath()) || */ "./upload"
         
+
         console.clear()
         rotas(app, destino)
         log.info("=============== Orizon ===============")        
