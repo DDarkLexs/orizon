@@ -6,7 +6,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "postinstall": "brunch build --optimize",
     "dev": "nodemon  ./index.js --exec babel-node -e js",
     "serve": "babel-node ./index.js",
     "test": "nodemon  ./src/config/connection.js --exec babel-node -e js"
