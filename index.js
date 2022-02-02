@@ -32,9 +32,8 @@ app.use(express.static("src/public"))
  
 app.listen(PORT, async () => {
         
-        destino = /* "./upload" // */ /* (await paraDestino.setPath()) || */ "./upload"
+        destino = /* "./upload" // */  (await paraDestino.setPath()) || "./upload"
         
-
         console.clear()
         rotas(app, destino)
         log.info("=============== Orizon ===============")        
@@ -43,3 +42,4 @@ app.listen(PORT, async () => {
         log.success(`Destino: ${destino}`)
 
 })
+
